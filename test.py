@@ -9,6 +9,8 @@ import unittest
 from main import Concert, ItineraryBuilder
 from concerts_data import get_all_concerts
 
+from datetime import datetime
+
 class ItineraryBuilderTest(unittest.TestCase):
     """Test cases for the ItineraryBuilder class."""
     
@@ -24,6 +26,27 @@ class ItineraryBuilderTest(unittest.TestCase):
     def test_manual_1(self):
         """First manually written test case."""
         # TODO: Implement this test
+        pass
+
+    def test_manual_2(self):
+        # Loop through itinerary
+        order = -1
+        itinerary = self.builder.build_itinerary(get_all_concerts())
+        for i in range(len(itinerary) - 1):
+            current = itinerary[i].date
+            next = itinerary[i + 1].date
+            if current < next:
+                order = 0
+            else:
+                order = -1
+                break
+            # Check if current date is smaller than larger
+            
+        self.assertEqual(0, order)
+
+
+    def test_manual_3(self):
+
         pass
     
     # ----- AI-Assisted Test Cases -----

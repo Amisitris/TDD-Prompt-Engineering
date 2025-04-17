@@ -1,0 +1,143 @@
+{
+  "experiment_start": "2025-04-16T13:28:33",
+  "test_runs": [
+    {
+      "timestamp": "2025-04-16T13:48:07.594544",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest) ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest) ... ok\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/amir/dundiii/TDD-Prompt-Engineering/test.py\", line 42, in test_manual_2\n    self.assertEqual(fails, 0)\nAssertionError: 1 != 0\n\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-16T15:04:24.397496",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest) ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest) ... ok\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/amir/dundiii/TDD-Prompt-Engineering/test.py\", line 45, in test_manual_2\n    self.assertEqual(1, 0)\nAssertionError: 1 != 0\n\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-16T16:26:12.897425",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest) ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest) ... ok\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/amir/dundiii/TDD-Prompt-Engineering/test.py\", line 45, in test_manual_2\n    self.assertEqual(1, 0)\nAssertionError: 1 != 0\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nFAILED (failures=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-17T13:35:01.866044",
+      "results": {
+        "total": 3,
+        "failures": 1,
+        "errors": 0,
+        "skipped": 0,
+        "success": false,
+        "details": "test_manual_1 (test.ItineraryBuilderTest)\nFirst manually written test case. ... ok\ntest_manual_2 (test.ItineraryBuilderTest) ... FAIL\ntest_manual_3 (test.ItineraryBuilderTest) ... ok\n\n======================================================================\nFAIL: test_manual_2 (test.ItineraryBuilderTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/amir/dundiii/TDD-Prompt-Engineering/test.py\", line 45, in test_manual_2\n    self.assertEqual(0, order)\nAssertionError: 0 != -1\n\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nFAILED (failures=1)\n"
+      }
+    }
+  ],
+  "file_changes": [],
+  "coverage_reports": [
+    {
+      "timestamp": "2025-04-16T13:48:07.618977",
+      "total_coverage": 51.724137931034484,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 25,
+          "lines_covered": 11,
+          "lines_missed": 23,
+          "percentage": 44.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-16T15:04:24.414068",
+      "total_coverage": 24.390243902439025,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 23,
+          "lines_covered": 15,
+          "lines_missed": 30,
+          "percentage": 65.21739130434783
+        },
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-16T16:26:12.909611",
+      "total_coverage": 24.390243902439025,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        },
+        "test.py": {
+          "lines_total": 23,
+          "lines_covered": 15,
+          "lines_missed": 30,
+          "percentage": 65.21739130434783
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-17T13:35:01.893952",
+      "total_coverage": 23.25581395348837,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        },
+        "test.py": {
+          "lines_total": 25,
+          "lines_covered": 17,
+          "lines_missed": 30,
+          "percentage": 68.0
+        }
+      }
+    }
+  ],
+  "task_times": [
+    {
+      "timestamp": "2025-04-17T13:35:15.618730",
+      "task": "Manual test writing (RED phase)",
+      "duration": 60.0
+    },
+    {
+      "timestamp": "2025-04-17T13:35:24.232115",
+      "task": "Manual test writing (RED phase)",
+      "duration": 5.0
+    }
+  ],
+  "constraint_assignments": {
+    "manual": [
+      3,
+      1,
+      2
+    ],
+    "ai_assisted": [
+      4,
+      0,
+      5
+    ],
+    "assigned_at": "2025-04-16T13:28:33"
+  }
+}
